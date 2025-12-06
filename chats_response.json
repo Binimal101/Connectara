@@ -1,0 +1,535 @@
+{
+  "data": [
+    {
+      "id": 1703475,
+      "display_name": "+1 (347) 248-4276",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 59,
+      "chat_handles": [
+        {
+          "id": 3461505,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T22:15:23.975-06:00"
+        },
+        {
+          "id": 3461506,
+          "phone_number": "+13472484276",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T22:15:23.976-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702292,
+      "display_name": "+1 (917) 696-4972",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 10,
+      "chat_handles": [
+        {
+          "id": 3459065,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:19:22.182-06:00"
+        },
+        {
+          "id": 3459066,
+          "phone_number": "+19176964972",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:19:22.183-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702052,
+      "display_name": "+1 (872) 279-4661",
+      "service": "RCS",
+      "group": false,
+      "message_count": 453,
+      "chat_handles": [
+        {
+          "id": 3458554,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:42:45.803-06:00"
+        },
+        {
+          "id": 3458555,
+          "phone_number": "+18722794661",
+          "service": "RCS",
+          "joined_at": "2025-12-05T19:42:45.804-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702260,
+      "display_name": "+1 (929) 250-4678",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 21,
+      "chat_handles": [
+        {
+          "id": 3459000,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:14:28.805-06:00"
+        },
+        {
+          "id": 3459001,
+          "phone_number": "+19292504678",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:14:28.806-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1703370,
+      "display_name": "+1 (845) 466-9960",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 42,
+      "chat_handles": [
+        {
+          "id": 3461290,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T22:00:09.832-06:00"
+        },
+        {
+          "id": 3461291,
+          "phone_number": "+18454669960",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T22:00:09.833-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702107,
+      "display_name": "+1 (732) 639-3889",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 138,
+      "chat_handles": [
+        {
+          "id": 3458680,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:48:33.595-06:00"
+        },
+        {
+          "id": 3458681,
+          "phone_number": "+17326393889",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:48:33.596-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1704900,
+      "display_name": "+1 (347) 759-2481",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 6,
+      "chat_handles": [
+        {
+          "id": 3464541,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-06T03:37:10.669-06:00"
+        },
+        {
+          "id": 3464542,
+          "phone_number": "+13477592481",
+          "service": "iMessage",
+          "joined_at": "2025-12-06T03:37:10.670-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1703709,
+      "display_name": "+13479546596",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 1017,
+      "chat_handles": [
+        {
+          "id": 3462026,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T22:53:38.657-06:00"
+        },
+        {
+          "id": 3462027,
+          "phone_number": "+13479546596",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T22:53:38.659-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702009,
+      "display_name": "+1 (667) 352-2441",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 1284,
+      "chat_handles": [
+        {
+          "id": 3458465,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:35:21.220-06:00"
+        },
+        {
+          "id": 3458466,
+          "phone_number": "+16673522441",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:35:21.222-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702760,
+      "display_name": "+1 (640) 219-9507",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 344,
+      "chat_handles": [
+        {
+          "id": 3460006,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:48:04.285-06:00"
+        },
+        {
+          "id": 3460007,
+          "phone_number": "+16402199507",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:48:04.286-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702379,
+      "display_name": "+1 (267) 312-6025",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 464,
+      "chat_handles": [
+        {
+          "id": 3459237,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:30:05.717-06:00"
+        },
+        {
+          "id": 3459238,
+          "phone_number": "+12673126025",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:30:05.717-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1704596,
+      "display_name": "+1 (646) 932-4962",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 7,
+      "chat_handles": [
+        {
+          "id": 3463890,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-06T01:50:53.016-06:00"
+        },
+        {
+          "id": 3463891,
+          "phone_number": "+16469324962",
+          "service": "iMessage",
+          "joined_at": "2025-12-06T01:50:53.017-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1701848,
+      "display_name": "+1 (845) 405-1876",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 2,
+      "chat_handles": [
+        {
+          "id": 3458137,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:14:39.401-06:00"
+        },
+        {
+          "id": 3458138,
+          "phone_number": "+18454051876",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:14:39.402-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702074,
+      "display_name": "+1 (347) 585-8293",
+      "service": "RCS",
+      "group": false,
+      "message_count": 99,
+      "chat_handles": [
+        {
+          "id": 3458608,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:44:52.044-06:00"
+        },
+        {
+          "id": 3458609,
+          "phone_number": "+13475858293",
+          "service": "RCS",
+          "joined_at": "2025-12-05T19:44:52.045-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702010,
+      "display_name": "+852 9581 1218",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 43,
+      "chat_handles": [
+        {
+          "id": 3458467,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:35:25.918-06:00"
+        },
+        {
+          "id": 3458468,
+          "phone_number": "+85295811218",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:35:25.919-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1703191,
+      "display_name": "+1 (347) 200-0669",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 2,
+      "chat_handles": [
+        {
+          "id": 3460923,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T21:29:07.137-06:00"
+        },
+        {
+          "id": 3460924,
+          "phone_number": "+13472000669",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T21:29:07.138-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1701872,
+      "display_name": "Product Team",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 10,
+      "chat_handles": [
+        {
+          "id": 3458186,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:17:07.373-06:00"
+        },
+        {
+          "id": 3458187,
+          "phone_number": "+19295095728",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T19:17:07.373-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1702303,
+      "display_name": "+1 (848) 250-4836",
+      "service": "iMessage",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3459087,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:21:17.237-06:00"
+        },
+        {
+          "id": 3459088,
+          "phone_number": "+18482504836",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T20:21:17.238-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1700063,
+      "display_name": "+12053861761",
+      "service": "SMS",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3454301,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T16:13:26.386-06:00"
+        },
+        {
+          "id": 3454302,
+          "phone_number": "+12053861761",
+          "service": "SMS",
+          "joined_at": "2025-12-05T16:13:26.388-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1699998,
+      "display_name": "+13343364359",
+      "service": "SMS",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3454164,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T16:08:26.250-06:00"
+        },
+        {
+          "id": 3454165,
+          "phone_number": "+13343364359",
+          "service": "SMS",
+          "joined_at": "2025-12-05T16:08:26.252-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1699179,
+      "display_name": "+13343903526",
+      "service": "SMS",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3451643,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T15:12:19.749-06:00"
+        },
+        {
+          "id": 3451644,
+          "phone_number": "+13343903526",
+          "service": "SMS",
+          "joined_at": "2025-12-05T15:12:19.750-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1697839,
+      "display_name": "+12054839063",
+      "service": "SMS",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3448788,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T13:12:55.608-06:00"
+        },
+        {
+          "id": 3448789,
+          "phone_number": "+12054839063",
+          "service": "SMS",
+          "joined_at": "2025-12-05T13:12:55.610-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1696523,
+      "display_name": "+19188978311",
+      "service": "SMS",
+      "group": false,
+      "message_count": 2,
+      "chat_handles": [
+        {
+          "id": 3446049,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T11:20:52.868-06:00"
+        },
+        {
+          "id": 3446050,
+          "phone_number": "+19188978311",
+          "service": "SMS",
+          "joined_at": "2025-12-05T11:20:52.869-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1695437,
+      "display_name": "+12565738140",
+      "service": "SMS",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3443808,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-05T09:53:28.337-06:00"
+        },
+        {
+          "id": 3443809,
+          "phone_number": "+12565738140",
+          "service": "SMS",
+          "joined_at": "2025-12-05T09:53:28.338-06:00"
+        }
+      ]
+    },
+    {
+      "id": 1690170,
+      "display_name": "+12058485704",
+      "service": "SMS",
+      "group": false,
+      "message_count": 1,
+      "chat_handles": [
+        {
+          "id": 3432825,
+          "phone_number": "+16463230991",
+          "service": "iMessage",
+          "joined_at": "2025-12-04T17:42:28.506-06:00"
+        },
+        {
+          "id": 3432826,
+          "phone_number": "+12058485704",
+          "service": "SMS",
+          "joined_at": "2025-12-04T17:42:28.507-06:00"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "page": "1",
+    "per_page": 25,
+    "total_pages": 2,
+    "total_count": 33
+  }
+}

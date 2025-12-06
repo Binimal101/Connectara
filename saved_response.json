@@ -1,0 +1,29 @@
+{
+    "api_version": "v2",
+    "created_at": "2025-12-06T04:59:43-06:00",
+    "data": {
+        "attachments": [],
+        "chat_handles": [
+            {
+                "display_name": "You",
+                "identifier": "+16463230991",
+                "is_me": true
+            },
+            {
+                "display_name": "+1 (732) 639-3889",
+                "identifier": "+17326393889",
+                "is_me": false
+            }
+        ],
+        "chat_id": "1702107",
+        "from_phone": "+17326393889",
+        "id": "53734843",
+        "is_read": false,
+        "reaction_id": null,
+        "sent_at": "2025-12-06 04:59:42 -0600",
+        "service": "iMessage",
+        "text": "Test-1"
+    },
+    "event_id": "351b28a4-ebbd-48f1-aa45-182a3ed63a66",
+    "event_type": "message.received"
+}
