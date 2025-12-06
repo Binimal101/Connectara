@@ -1,4 +1,5 @@
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+import asyncio
+from playwright.async_api import async_playwright, Browser, TimeoutError as PlaywrightTimeoutError
 import time
 import pathlib
 from bs4 import BeautifulSoup
@@ -6,6 +7,7 @@ from typing import Any, List
 import os, json, requests
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urlparse, urlunparse
 
 from src import env_path
 
@@ -17,60 +19,86 @@ assert os.getenv("SERP_TOKEN") is not None, "SERP_TOKEN not set in environment"
 3) return post details for validated posts
 """
 
-def get_all_post_details(name: str) -> List[str]:
-    post_urls = get_posts_similar_to_fullname(name)
+def truncate_parameters(url: str) -> str:
+    """
+    Normalize LinkedIn URLs to format: https://www.linkedin.com/in/username
+    - Remove query parameters and fragments
+    - Normalize all subdomains to 'www.linkedin.com'
+    - Keep https scheme and path
+    """
+    parsed = urlparse(url)
+    
+    # Normalize LinkedIn subdomains to www.linkedin.com
+    netloc = parsed.netloc
+    if 'linkedin.com' in netloc:
+        netloc = 'www.linkedin.com'
+    
+    # Keep https, normalized netloc, and path only; drop params, query, fragment
+    return urlunparse(('https', netloc, parsed.path, '', '', ''))
 
-    valid_posts = []
-    for url in post_urls:
-        try:
-            post_text, author_name = headless_browse(url)
-            if author_name.lower() == name.lower():
-                valid_posts.append(post_text)
-        
-        except Exception as e:
-            print(f"[error] Failed to process {url}: {e}")
+def get_all_post_details(name: str, linkedin_profile_url: str) -> List[str]:
+    return asyncio.run(_get_all_post_details(name, linkedin_profile_url))
+
+
+async def _get_all_post_details(name: str, linkedin_profile_url: str) -> List[str]:
+    post_urls = get_posts_similar_to_fullname(name)
+    if not post_urls:
+        return []
+
+    valid_posts: List[str] = []
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        tasks = [headless_browse(url, browser) for url in post_urls]
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        for url, result in zip(post_urls, results):
+            if isinstance(result, Exception):
+                print(f"[error] Failed to process {url}: {result}")
+                continue
+            post_text, author_name, author_linkedin_url = result # type: ignore
+            if not all([post_text, author_name, author_linkedin_url]):
+                print(f"[warn] Incomplete data for post {url}, skipping...")
+                continue
+            elif author_name and author_name.lower() == name.lower():
+                if author_linkedin_url and truncate_parameters(author_linkedin_url.lower()) == linkedin_profile_url.lower():
+                    valid_posts.append(post_text) # type: ignore
+                    print(f"[info] Validated post from {author_name} at {author_linkedin_url}")
+                # else:
+                #     print(f"[warn] Author LinkedIn URL mismatch for post at {truncate_parameters(author_linkedin_url)}, skipping...") # type: ignore
+        await browser.close()
+
+    print(f"[info] Retrieved {len(valid_posts)} valid posts out of {len(post_urls)} total posts found.")
     return valid_posts
 
 
-def headless_browse(url: str, screenshot_name: str | None = None):
+async def headless_browse(url: str, browser: Browser, screenshot_name: str | None = None):
     if screenshot_name is None:
         screenshot_name = f"screenshot_{int(time.time())}.png"
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/122.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1280, "height": 720},
-        )
+    context = await browser.new_context(
+        user_agent=(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        ),
+        viewport={"width": 1280, "height": 720},
+    )
+    page = await context.new_page()
 
-        page = context.new_page()
+    print(f"Navigating to: {url}")
+    await page.goto(url, wait_until="domcontentloaded", timeout=60_000)
 
-        print(f"Navigating to: {url}")
-        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+    try:
+        await page.wait_for_load_state("networkidle", timeout=10_000)
+    except PlaywrightTimeoutError:
+        print("[warn] networkidle not reached, continuing anyway...")
 
-        try:
-            page.wait_for_load_state("networkidle", timeout=10_000)
-        except PlaywrightTimeoutError:
-            print("[warn] networkidle not reached, continuing anyway...")
+    await page.wait_for_timeout(750)
 
-        page.wait_for_timeout(750)
+    html = await page.content()
+    await context.close()
 
-        # Try to dismiss the modal; if it fails, just log and continue
-        # try:
-        #     page.click("button[aria-label='Dismiss']", timeout=3_000, force=True)
-        # except Exception as e:
-        #     print(f"[warn] Failed to click dismiss button: {e}")
-
-        # Save HTML from the current DOM
-        html = page.content()
-        
-        title = page.title()
-        browser.close()
-        return getPostDetails(html) 
+    return getPostDetails(html) 
 
 def get_posts_similar_to_fullname(full_name: str):
     # Load the HTML dump
@@ -121,30 +149,53 @@ def get_posts_similar_to_fullname(full_name: str):
                     all_posts.extend(page_results[page_index])
             
         all_posts.extend(first_page_results)
-    return [x["link"] for x in all_posts if x.get("link")]
-
-def getPostDetails(html: str)-> tuple[str, str]:
-    # Load the HTML dump
-    soup = BeautifulSoup(html, "html.parser")
-
-    # Find all sections with class 'mb-3'
-    mb3_section = soup.find_all("section", class_="mb-3")[0]
-    article = mb3_section.find_all("article")[0]
-    p_tag = article.find("p")
-
-    post_text = p_tag.get_text() if p_tag else None
-
-    author_flexbox = article.find_all("div", class_ = "flex")[0]
-    author_links = author_flexbox.find_all('a', attrs={'data-tracking-control-name': 'public_post_feed-actor-name'})
-    author_name = author_links[0].get_text() if author_links else None
-
-    if not all([post_text, author_name]):
-        raise ValueError("Could not extract post details")
-    else:
-        print("found post details:", post_text, author_name, "\n\n")
-        return post_text, author_name # type: ignore
     
-posts = get_all_post_details("Andres Campoverde")
+    # Filter out non-post URLs (directories, search pages, etc.)
+    valid_post_urls = []
+    for x in all_posts:
+        link = x.get("link")
+        if link and "/posts/" in link:
+            valid_post_urls.append(link)
+    
+    return valid_post_urls
+
+def getPostDetails(html: str)-> tuple[str | None, str | None, str | None]:
+    post_text, author_name, author_linkedin_url = None, None, None
+    try:
+        # Load the HTML dump
+        soup = BeautifulSoup(html, "html.parser")
+
+        # find post description
+        mb3_sections = soup.find_all("section", class_="mb-3")
+        if not mb3_sections:
+            raise ValueError("No sections with class 'mb-3' found")
+        
+        mb3_section = mb3_sections[0]
+        articles = mb3_section.find_all("article")
+        if not articles:
+            raise ValueError("No article found in section")
+        
+        article = articles[0]
+        p_tag = article.find("p")
+        post_text = p_tag.get_text(strip=True) if p_tag else None
+
+        # author name
+        author_flexboxes = article.find_all("div", class_="flex")
+        if not author_flexboxes:
+            raise ValueError("No flex divs found for author")
+        
+        author_flexbox = author_flexboxes[0]
+        author_links = author_flexbox.find_all('a', attrs={'data-tracking-control-name': 'public_post_feed-actor-name'})
+        author_name = author_links[0].get_text(strip=True) if author_links else None
+
+        # linkedin profile
+        author_linkedin_url = author_links[0]['href'] if author_links and 'href' in author_links[0].attrs else None
+    except Exception as e:
+        print(f"[error] Exception in getPostDetails: {e}")
+        
+    return post_text, author_name, author_linkedin_url # type: ignore
+    
+posts = get_all_post_details("Andres Campoverde", "https://www.linkedin.com/in/itsandres") 
 with open("posts.json", "w", encoding="utf-8") as f:
     for post in posts:
         f.write(post + "\n")
