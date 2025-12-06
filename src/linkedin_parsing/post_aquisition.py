@@ -57,13 +57,13 @@ def headless_browse(url: str, screenshot_name: str | None = None):
         except PlaywrightTimeoutError:
             print("[warn] networkidle not reached, continuing anyway...")
 
-        page.wait_for_timeout(1500)
+        page.wait_for_timeout(750)
 
         # Try to dismiss the modal; if it fails, just log and continue
-        try:
-            page.click("button[aria-label='Dismiss']", timeout=3_000, force=True)
-        except Exception as e:
-            print(f"[warn] Failed to click dismiss button: {e}")
+        # try:
+        #     page.click("button[aria-label='Dismiss']", timeout=3_000, force=True)
+        # except Exception as e:
+        #     print(f"[warn] Failed to click dismiss button: {e}")
 
         # Save HTML from the current DOM
         html = page.content()
@@ -141,6 +141,7 @@ def getPostDetails(html: str)-> tuple[str, str]:
     if not all([post_text, author_name]):
         raise ValueError("Could not extract post details")
     else:
+        print("found post details:", post_text, author_name, "\n\n")
         return post_text, author_name # type: ignore
     
 posts = get_all_post_details("Andres Campoverde")

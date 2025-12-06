@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6933cb31572948b5a94e9da2",
+    "id": "6933d9e5b4ab727af3d5af6f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/3c5dfb0c7e82a4f6/6933cb31572948b5a94e9da2.json",
-    "pixel_position_endpoint": "https://serpapi.com/searches/3c5dfb0c7e82a4f6/6933cb31572948b5a94e9da2.json_with_pixel_position",
-    "created_at": "2025-12-06 06:20:33 UTC",
-    "processed_at": "2025-12-06 06:20:33 UTC",
+    "json_endpoint": "https://serpapi.com/searches/3c5dfb0c7e82a4f6/6933d9e5b4ab727af3d5af6f.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/3c5dfb0c7e82a4f6/6933d9e5b4ab727af3d5af6f.json_with_pixel_position",
+    "created_at": "2025-12-06 07:23:17 UTC",
+    "processed_at": "2025-12-06 07:23:17 UTC",
     "google_url": "https://www.google.com/search?q=site%3Alinkedin.com+inurl%3A%22%2Fposts%2F%22+intext%3A%22Andres+Campoverde%22&oq=site%3Alinkedin.com+inurl%3A%22%2Fposts%2F%22+intext%3A%22Andres+Campoverde%22&sourceid=chrome&ie=UTF-8",
-    "raw_html_file": "https://serpapi.com/searches/3c5dfb0c7e82a4f6/6933cb31572948b5a94e9da2.html",
-    "total_time_taken": 1.36
+    "raw_html_file": "https://serpapi.com/searches/3c5dfb0c7e82a4f6/6933d9e5b4ab727af3d5af6f.html",
+    "total_time_taken": 1.66
   },
   "search_parameters": {
     "engine": "google",
@@ -19,36 +19,36 @@
   "search_information": {
     "query_displayed": "site:linkedin.com inurl:\"/posts/\" intext:\"Andres Campoverde\"",
     "total_results": 2200,
-    "time_taken_displayed": 0.37,
+    "time_taken_displayed": 0.36,
     "organic_results_state": "Results for exact spelling"
   },
   "inline_images": [
     {
-      "source": "https://www.linkedin.com/posts/wellsdouraghy_building-startups-deverages-activity-7373375736440868864-_cM3",
-      "thumbnail": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/0e0ba6dac71a42297ebf3c0ce6ab02b32fe3b7c9f66853b90d72e9ef7782eec0.jpeg",
-      "original": "https://media.licdn.com/dms/image/v2/D4E03AQFl-K7weHqS0A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718305689352?e=2147483647&v=beta&t=XkVGUUIAzr3UyjRry-uwK9yGznAu4-4kK5gNehJerEw",
-      "title": "building #startups #deverages #bevelopers | Wells Douraghy ...",
-      "source_name": "LinkedIn"
-    },
-    {
       "source": "https://www.linkedin.com/posts/barkerchristy_olin-leadership-cio-activity-7189684013270237184-2zq8",
-      "thumbnail": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/0e0ba6dac71a4229bef3b45fb101e0f7b20a67167d240430fb1444880a82d45d.jpeg",
+      "thumbnail": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/0e0ba6dac71a42297ebf3c0ce6ab02b32fe3b7c9f66853b90d72e9ef7782eec0.jpeg",
       "original": "https://media.licdn.com/dms/image/v2/D5605AQEOYNe_w5OtMA/videocover-high/videocover-high/0/1714144959944?e=2147483647&v=beta&t=B2oxUPgKMFV2pRTRiErJzcNqWX2L3o_wd8_M30Gr1Ig",
       "title": "#olin #leadership #cio #somethingextra | Christy Barker | 11 comments",
       "source_name": "LinkedIn"
     },
     {
       "source": "https://ec.linkedin.com/posts/andres-campoverde-1673431b_aguacates-activity-7039865982303039488-XrYR",
-      "thumbnail": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/0e0ba6dac71a4229accf3a9ac27f56863831d6e3c93132615c93d498deba0647.jpeg",
+      "thumbnail": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/0e0ba6dac71a4229bef3b45fb101e0f7b20a67167d240430fb1444880a82d45d.jpeg",
       "original": "https://media.licdn.com/dms/image/v2/C4E22AQGeoMtuGqdeeQ/feedshare-shrink_800/feedshare-shrink_800/0/1678206511898?e=2147483647&v=beta&t=WIUvbHnYuhqo3Q_bOfILCbrM8mlVvurM4Fhs9NTbrdk",
       "title": "Andres Campoverde ha hecho una publicaci\u00f3n en LinkedIn",
       "source_name": "LinkedIn"
     },
     {
       "source": "https://www.linkedin.com/posts/getmetronome_next-billion-dollar-startups-2024-activity-7229228033709072385-OJUK",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHHDGpfb2IRP1vK7H4FkGfwYwjZjy8QKQJd7IL2geSyE_PkkuutRdN3j8&s",
+      "thumbnail": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/0e0ba6dac71a4229accf3a9ac27f56863831d6e3c93132615c93d498deba0647.jpeg",
       "original": "https://media.licdn.com/dms/image/v2/D5610AQFPnNfKAVm24A/image-shrink_800/image-shrink_800/0/1723582275502?e=2147483647&v=beta&t=Zf24DmXGQ3fCqHHsgugoMjxHgsQ9bxkSeWnCniCFgfs",
       "title": "Next Billion-Dollar Startups 2024 | Metronome",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://www.linkedin.com/posts/wellsdouraghy_building-startups-deverages-activity-7373375736440868864-_cM3",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh9Hu2T_5d41G0djs48-S7yTbS4ZPVE9sWCPzfMNpuQCnvrHQJZywf_E4&s",
+      "original": "https://media.licdn.com/dms/image/v2/D4E03AQFl-K7weHqS0A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718305689352?e=2147483647&v=beta&t=XkVGUUIAzr3UyjRry-uwK9yGznAu4-4kK5gNehJerEw",
+      "title": "building #startups #deverages #bevelopers | Wells Douraghy ...",
       "source_name": "LinkedIn"
     },
     {
@@ -80,10 +80,10 @@
       "source_name": "LinkedIn"
     },
     {
-      "source": "https://www.linkedin.com/posts/jen-garcia-ai-adoption-educator_nonprofitaijam-openaiacademy-techfornonprofits-activity-7371241291189317632-DabK",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCnlgDwRJJ5fUbYAjP-6VovCyagJk3H0Dtg3iDtloddRBNQLV8A_y18tY&s",
-      "original": "https://media.licdn.com/dms/image/v2/D5622AQGuygjvAMHG8Q/feedshare-shrink_800/B56Zkvo3SCKwAg-/0/1757440872830?e=2147483647&v=beta&t=FjFcv46V32LmfMz5rm7FWb6n3vjTZyJtCAdA0Phkm14",
-      "title": "nonprofitaijam #openaiacademy #techfornonprofits #aiforgood ...",
+      "source": "https://www.linkedin.com/posts/kareem-rae_it-was-great-to-connect-and-talk-with-some-activity-7020821579487973376-DXSG",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9oggoZRa_AeYSe22UlPOgDTVjoFYcAm3JLQk-D3RSsvV_Dlv9dpMs8NE&s",
+      "original": "https://media.licdn.com/dms/image/v2/D5603AQFpE-CXhkL6RA/profile-displayphoto-shrink_400_400/B56ZdyznRwHQAg-/0/1749977858133?e=2147483647&v=beta&t=cGoFPvG8cYwwhHrzi7-1ufh9KsNqkq69qTwQ7570rWw",
+      "title": "It was great to connect and talk with some of the leaders ...",
       "source_name": "LinkedIn"
     }
   ],
@@ -92,9 +92,9 @@
       "position": 1,
       "title": "ANDRES CAMPOVERDE - hubai",
       "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_hubai-activity-7275386282816462849-JeyM",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_hubai-activity-7275386282816462849-JeyM&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECBoQAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_hubai-activity-7275386282816462849-JeyM&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECBsQAQ",
       "displayed_link": "https://www.linkedin.com \u203a posts \u203a andres-campoverde-...",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd239f71df3122256b8927414d9fb8152185b.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd239f71df3122256b8927414d9fb8152185b.png",
       "snippet": "ANDRES CAMPOVERDE's Post. View profile for ANDRES CAMPOVERDE \u00b7 ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. 10mo ... ANDRES CAMPOVERDE 6y. Explore content categories.",
       "snippet_highlighted_words": [
         "ANDRES CAMPOVERDE's",
@@ -109,9 +109,9 @@
       "position": 2,
       "title": "How I applied SOLID principles to build a crypto market ...",
       "link": "https://www.linkedin.com/posts/itsandres_solid-cleancode-crypto-activity-7335860482970447874-yivC",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/itsandres_solid-cleancode-crypto-activity-7335860482970447874-yivC&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECBsQAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/itsandres_solid-cleancode-crypto-activity-7335860482970447874-yivC&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECB4QAQ",
       "displayed_link": "7 reactions \u00b7 6 months ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd239b8c236b870a30947ec6c82896e40cb92.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd239b8c236b870a30947ec6c82896e40cb92.png",
       "snippet": "How I applied SOLID principles to build a crypto market maker. View profile for Andres Campoverde. Andres Campoverde. Senior Software Engineer ...",
       "snippet_highlighted_words": [
         "Andres Campoverde",
@@ -123,9 +123,9 @@
       "position": 3,
       "title": "Estamos Preparados para el Futuro del Trabajo Inteligente ...",
       "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_estamos-preparados-para-el-futuro-del-trabajo-activity-7114689758735319042-Kq7N",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_estamos-preparados-para-el-futuro-del-trabajo-activity-7114689758735319042-Kq7N&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECB0QAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_estamos-preparados-para-el-futuro-del-trabajo-activity-7114689758735319042-Kq7N&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECCMQAQ",
       "displayed_link": "2 reactions \u00b7 2 years ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd2392d15925259d6089c758bb7b1b9c63a19.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd2392d15925259d6089c758bb7b1b9c63a19.png",
       "snippet": "ANDRES CAMPOVERDE's Post. View profile for ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. 2y. Report this post; Close menu.",
       "snippet_highlighted_words": [
         "ANDRES CAMPOVERDE",
@@ -138,9 +138,9 @@
       "position": 4,
       "title": "ANDRES CAMPOVERDE - Gabriela Sommerfeld",
       "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_gabriela-sommerfeld-activity-7223227150131232768-f_gx",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_gabriela-sommerfeld-activity-7223227150131232768-f_gx&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECBkQAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_gabriela-sommerfeld-activity-7223227150131232768-f_gx&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECCcQAQ",
       "displayed_link": "https://www.linkedin.com \u203a posts \u203a andres-campoverde-...",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd23910802c70cafa490b9802a1ca534c1c33.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd23910802c70cafa490b9802a1ca534c1c33.png",
       "snippet": "ANDRES CAMPOVERDE's Post ... On Wednesday, John Riordan and I returned to The White House for the launch of the #InvestorNetwork as part of the 'Americas ...",
       "snippet_highlighted_words": [
         "ANDRES CAMPOVERDE's"
@@ -151,9 +151,9 @@
       "position": 5,
       "title": "ANDRES CAMPOVERDE's Post",
       "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_adoptada-una-nueva-normativa-internacional-activity-6550390012570058752-vnWK",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_adoptada-una-nueva-normativa-internacional-activity-6550390012570058752-vnWK&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECBwQAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_adoptada-una-nueva-normativa-internacional-activity-6550390012570058752-vnWK&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECCIQAQ",
       "displayed_link": "2 reactions \u00b7 6 years ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd239e2bc856a5d664de9d166b7bd7cdededd.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd239e2bc856a5d664de9d166b7bd7cdededd.png",
       "snippet": "ANDRES CAMPOVERDE's Post. View profile for ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. 6y. Report this post; Close menu. https ...",
       "snippet_highlighted_words": [
         "ANDRES CAMPOVERDE",
@@ -166,9 +166,9 @@
       "position": 6,
       "title": "excelente | ANDRES CAMPOVERDE",
       "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_excelente-activity-7194555782237945856-FWhe",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_excelente-activity-7194555782237945856-FWhe&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECB4QAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_excelente-activity-7194555782237945856-FWhe&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECB8QAQ",
       "displayed_link": "4 reactions \u00b7 1 year ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd239485fb8937d2c040ab72c5a25cbbc960e.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd239485fb8937d2c040ab72c5a25cbbc960e.png",
       "snippet": "ANDRES CAMPOVERDE's Post. View profile for ANDRES CAMPOVERDE \u00b7 ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. 1y. Report this post; Close menu. excelente.",
       "snippet_highlighted_words": [
         "ANDRES CAMPOVERDE",
@@ -181,9 +181,9 @@
       "position": 7,
       "title": "Next Billion-Dollar Startups 2024 | Metronome",
       "link": "https://www.linkedin.com/posts/getmetronome_next-billion-dollar-startups-2024-activity-7229228033709072385-OJUK",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/getmetronome_next-billion-dollar-startups-2024-activity-7229228033709072385-OJUK&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECB8QAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/getmetronome_next-billion-dollar-startups-2024-activity-7229228033709072385-OJUK&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECCEQAQ",
       "displayed_link": "90+ reactions \u00b7 1 year ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd2399e0547b3f7b53b00460afeacc780ba93.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd2399e0547b3f7b53b00460afeacc780ba93.png",
       "snippet": "ANDRES CAMPOVERDE, graphic. ANDRES CAMPOVERDE. ANDRES CAMPOVERDE. 1y. Report this comment; Close menu. \u00a1Impresionante! Like \u00b7 Reply \u00b7 1 Reaction ...",
       "snippet_highlighted_words": [
         "ANDRES CAMPOVERDE",
@@ -196,9 +196,9 @@
       "position": 8,
       "title": "Publicaci\u00f3n de Andres Campoverde",
       "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_felicidadorganizacional-jbersolutions-activity-7156149532559339520-OW_O",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_felicidadorganizacional-jbersolutions-activity-7156149532559339520-OW_O&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECDYQAQ",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_felicidadorganizacional-jbersolutions-activity-7156149532559339520-OW_O&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECDUQAQ",
       "displayed_link": "2 reactions \u00b7 1 year ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd2392e0d445f9c59a1b818bc4f8942360a9d.png",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd2392e0d445f9c59a1b818bc4f8942360a9d.png",
       "snippet": "Publicaci\u00f3n de Andres Campoverde. Ver el perfil de Andres Campoverde \u00b7 Andres Campoverde. CMO & Co Founder JBer Solutions. Consultant ...",
       "snippet_highlighted_words": [
         "Andres Campoverde",
@@ -209,32 +209,34 @@
     },
     {
       "position": 9,
-      "title": "El trabajo de los j\u00f3venes en la Empresa Digital | ANDRES ...",
-      "link": "https://www.linkedin.com/posts/andres-campoverde-1673431b_el-trabajo-de-los-j%C3%B3venes-en-la-empresa-digital-activity-6368442951504261120-nAGT",
-      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/posts/andres-campoverde-1673431b_el-trabajo-de-los-j%25C3%25B3venes-en-la-empresa-digital-activity-6368442951504261120-nAGT&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44QFnoECDUQAQ",
-      "displayed_link": "1 reaction \u00b7 7 years ago",
-      "favicon": "https://serpapi.com/searches/6933cb31572948b5a94e9da2/images/5640b3f11d383f315067e7ceba6dd23931727695d935d53e3e6dab93c77eae2f.png",
-      "snippet": "2023 Uncertainty in Technologies Jobs. ANDRES CAMPOVERDE 2y \u00b7 Quantifying the Worldwide Shortage of Full-Time Developers. ANDRES CAMPOVERDE 2y ...",
+      "title": "HR Global Day Event | HRSmartSolutions | Andres Campoverde",
+      "link": "https://es.linkedin.com/posts/andres-campoverde-1673431b_hr-global-day-event-hrsmartsolutions-activity-7285768629625737216-J9b2",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.linkedin.com/posts/andres-campoverde-1673431b_hr-global-day-event-hrsmartsolutions-activity-7285768629625737216-J9b2&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQFnoECDgQAQ",
+      "displayed_link": "https://es.linkedin.com \u203a posts \u203a an...",
+      "favicon": "https://serpapi.com/searches/6933d9e5b4ab727af3d5af6f/images/5640b3f11d383f315067e7ceba6dd23931727695d935d53e3e6dab93c77eae2f.png",
+      "snippet": "Publicaci\u00f3n de Andres Campoverde. Ver el perfil de Andres Campoverde \u00b7 Andres Campoverde ... Andres Campoverde 6 a\u00f1os. Ver temas. Ventas \u00b7 Marketing \u00b7 Servicios ...",
       "snippet_highlighted_words": [
-        "ANDRES CAMPOVERDE",
-        "ANDRES CAMPOVERDE"
+        "Andres Campoverde",
+        "Andres Campoverde",
+        "Andres Campoverde",
+        "Andres Campoverde"
       ],
-      "source": "LinkedIn \u00b7 ANDRES CAMPOVERDE"
+      "source": "LinkedIn"
     }
   ],
   "pagination": {
     "current": 1,
-    "next": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=10&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8NMDegQICRAW",
+    "next": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=10&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8NMDegQICBAW",
     "other_pages": {
-      "2": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=10&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAE",
-      "3": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=20&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAG",
-      "4": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=30&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAI",
-      "5": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=40&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAK",
-      "6": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=50&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAM",
-      "7": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=60&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAO",
-      "8": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=70&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAQ",
-      "9": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=80&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAS",
-      "10": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=ea03128f0bbabd1b&ei=McszaeeuMI6dwbkPsqC88Ag&start=90&sa=N&sstk=Af77f_fKxBh3EcXJMeLlK0DbKA09MHZuXaPY0QrQa3euxnwAJzwZdXbg6104PK83kYnWPEsQoLoVGRQ_AhKb-ZKXEU8hvTyjHpMDhA&ved=2ahUKEwini4L6qKiRAxWOTjABHTIQD44Q8tMDegQICRAU"
+      "2": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=10&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAE",
+      "3": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=20&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAG",
+      "4": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=30&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAI",
+      "5": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=40&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAK",
+      "6": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=50&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAM",
+      "7": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=60&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAO",
+      "8": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=70&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAQ",
+      "9": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=80&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAS",
+      "10": "https://www.google.com/search?q=site:linkedin.com+inurl:%22/posts/%22+intext:%22Andres+Campoverde%22&sca_esv=5d698695815f1b11&ei=5tkzadP0OYqsptQPgYvwuQ8&start=90&sa=N&sstk=Af77f_fE4Q3NVkPWJE3BlBA3G1-oLJuoVRjs-tAzeIrC7vHlh9a7VoO6_5c8wWrqrqRNOdYA5tteCE9fbGeHcdTqQgoRVItfArQkeQ&ved=2ahUKEwjT_7D9tqiRAxUKlokEHYEFPPcQ8tMDegQICBAU"
     }
   },
   "serpapi_pagination": {
